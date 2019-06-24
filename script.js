@@ -69,3 +69,13 @@ fetch (`${base_url}`)
         document.getElementById("pic20").src=json.articles[19].urlToImage
     })
 
+// Toggle Function For Darky and Lighty
+
+function night(){
+    body.className='night';
+    hed.className='jumbotron-invert text-center text-primary p-2'
+}
+function day(){
+    body.className='';
+    hed.className='jumbotron text-center text-primary p-2'
+}

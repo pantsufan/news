@@ -11,15 +11,21 @@
 img {
     width: 600px;
 }
+.night{
+        background-color: #212121;
+        color: white;
+}
 </style>
 <title>News</title>
 </head>
-<body>
-<div class="jumbotron text-center text-primary p-2">
+<body id="body">
+<div id="hed" class="jumbotron text-center text-primary p-2">
     <h1 class="display-4">NEWS</h1>
     <p class="lead">Source: NDTV.com</p>
     <hr class="my-4">
-    <p>Powered By Newsapi.org</p>
+    <p>Powered By Newsapi.org</p>   
+      <button class="btn" onclick="night()"><i class="fas fa-moon fa-lg text-primary"></i></button>
+      <button class="btn" onclick="day()"><i class="fas fa-sun fa-lg text-primary"></i></button>
 </div>
 
 <!-- Posts -->
