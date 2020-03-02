@@ -1,4 +1,4 @@
 # News Site
 This website uses NewsAPI
 
-## I suck at documentation
+### This is a basic app that fetches news from a website using news API
